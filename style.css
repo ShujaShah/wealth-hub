@@ -1,0 +1,1064 @@
+/*
+Theme Name: wealth-hub
+Theme URI: https://github.com/ShujaShah
+Author: Shuja Shah
+Author URI: https://github.com/ShujaShah
+Description : This is a task to create a custom template.
+Version: 1.0
+*/
+
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* css to be defined as theme */
+h1 {
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  position: fixed;
+}
+
+h2 {
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  position: absolute;
+}
+
+h3 {
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  position: absolute;
+}
+
+h4 {
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  position: absolute;
+}
+
+h5 {
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  position: absolute;
+}
+
+h6 {
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  position: absolute;
+}
+
+button {
+  font-family: Mulish, sans-serif;
+  background-color: #ff7700;
+  color: #ffffff;
+  border-radius: 4px;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+  position: absolute;
+}
+
+.logo {
+  top: 22px;
+  left: 635px;
+  width: 170px;
+  height: 49px;
+  background: transparent url("./images/logo.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.section2 {
+  top: 80px;
+  left: 0px;
+  width: 1440px;
+  height: 960px;
+  background: transparent url("./images/banner.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.sec2-text1 {
+  top: 214px;
+  left: 549px;
+  width: 342px;
+  height: 30px;
+  text-align: center;
+  font: normal normal 20px/30px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #ff7700;
+  opacity: 1;
+  position: absolute;
+}
+
+.sec2-text2 {
+  top: 275px;
+  left: 221px;
+  width: 999px;
+  height: 154px;
+  text-align: center;
+  font: normal normal 36px/46px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+}
+
+.sec2-text3 {
+  top: 471px;
+  left: 495px;
+  width: 442px;
+  height: 19px;
+  text-align: center;
+  font: normal normal normal 15px/20px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+}
+
+.button1 {
+  top: 502px;
+  left: 471px;
+  width: 499px;
+  height: 72px;
+  background: #ff7700 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.buttonText {
+  top: 521px;
+  left: 535px;
+  width: 305px;
+  height: 32px;
+  text-align: left;
+  font: normal normal 400 20px/32px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  cursor: pointer;
+  position: absolute;
+}
+
+.buttonText2 {
+  top: 533px;
+  left: 898px;
+  width: 8px;
+  height: 14px;
+  background: url("./images/greater.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.tick {
+  top: 445px;
+  left: 1005px;
+  width: 130px;
+  height: 112px;
+  background: transparent url("/images/arrow-brush.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.dash {
+  top: 360px;
+  left: 900px;
+  width: 350px;
+  height: 112px;
+  background: transparent url("./images/line.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.sponsors {
+  top: 708px;
+  left: 0px;
+  width: 1440px;
+  height: 148px;
+  background: #f5f8fa 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.sponsorsText {
+  top: 731px;
+  left: 650px;
+  width: 140px;
+  height: 30px;
+  text-align: center;
+  font: normal normal 18px/36px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.news7 {
+  top: 790px;
+  left: 236px;
+  width: 85px;
+  height: 25px;
+  background: transparent url("./images/news/Seven_News.svg.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.dailyMail {
+  top: 784px;
+  left: 383px;
+  width: 141px;
+  height: 38px;
+  background: transparent url("./images/news/daily-mail.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.news9 {
+  top: 795px;
+  left: 591px;
+  width: 100px;
+  height: 16px;
+  background: transparent url("./images/news/9news.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.propertyInvestor {
+  top: 787px;
+  left: 760px;
+  width: 106px;
+  height: 32px;
+  background: transparent url("./images/news/property-inverstor.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.skyNews {
+  top: 782px;
+  left: 927px;
+  width: 76px;
+  height: 39px;
+  background: transparent url("./images/news/Sky_news_business.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.sundayTimes {
+  top: 780px;
+  left: 1058px;
+  width: 147px;
+  height: 43px;
+  background: transparent url("./images/news/the-sunday-times-logo.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+/* //////////////////////////////////////////////////////////////////////////S3 */
+.section3 {
+  top: 906px;
+  left: 81px;
+  width: 1258px;
+  height: 867px;
+  opacity: 1;
+  position: absolute;
+}
+.section3Text {
+  top: 906px;
+  left: 406px;
+  width: 628px;
+  height: 92px;
+  text-align: center;
+  font: normal normal 34px/46px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+.leftImage {
+  top: 1092px;
+  left: 81px;
+  width: 901px;
+  height: 645px;
+  opacity: 1;
+  background: url("./images/image.png") 0% 0% no-repeat padding-box;
+  position: absolute;
+}
+.externalCard {
+  top: 1043px;
+  left: 691px;
+  width: 648px;
+  height: 730px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 20px #00000029;
+  border-radius: 9px;
+  opacity: 1;
+  position: absolute;
+}
+.internalCard {
+  top: 1064px;
+  left: 715px;
+  width: 602px;
+  height: 682px;
+  background: #f5f8fa 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+  opacity: 1;
+  position: absolute;
+}
+.textOuter {
+  top: 1115px;
+  left: 809px;
+  width: 458px;
+  height: 581px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+.ticks {
+  top: 1120px;
+  left: 765px;
+  width: 19px;
+  height: 506px;
+  opacity: 1;
+  position: absolute;
+}
+.tick1 {
+  top: 1120px;
+  left: 765px;
+  width: 19px;
+  height: 14px;
+  background: transparent url("images/foursquare-check-in.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+.text1 {
+  top: 1115px;
+  left: 809px;
+  width: 458px;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  height: 14px;
+  font-size: large;
+  font: bold;
+  opacity: 1;
+  position: absolute;
+}
+.text2 {
+  top: 1199px;
+  left: 809px;
+  width: 458px;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  height: 14px;
+  font-size: large;
+  opacity: 1;
+  position: absolute;
+}
+.text3 {
+  top: 1274px;
+  left: 809px;
+  width: 458px;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  height: 14px;
+  font-size: large;
+  opacity: 1;
+  position: absolute;
+}
+.text4 {
+  top: 1380px;
+  left: 809px;
+  width: 458px;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  height: 14px;
+  font-size: large;
+  opacity: 1;
+  position: absolute;
+}
+.text5 {
+  top: 1483px;
+  left: 809px;
+  width: 458px;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  height: 14px;
+  font-size: large;
+  opacity: 1;
+  position: absolute;
+}
+.text6 {
+  top: 1613px;
+  left: 809px;
+  width: 458px;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: Mulish, sans-serif;
+  color: #333333;
+  height: 14px;
+  font-size: large;
+  opacity: 1;
+  position: absolute;
+}
+.tick2 {
+  top: 1199px;
+  left: 765px;
+  width: 19px;
+  height: 14px;
+  background: transparent url("images/foursquare-check-in.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+.tick3 {
+  top: 1274px;
+  left: 765px;
+  width: 19px;
+  height: 14px;
+  background: transparent url("images/foursquare-check-in.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+.tick4 {
+  top: 1380px;
+  left: 765px;
+  width: 19px;
+  height: 14px;
+  background: transparent url("images/foursquare-check-in.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+.tick5 {
+  top: 1483px;
+  left: 765px;
+  width: 19px;
+  height: 14px;
+  background: transparent url("images/foursquare-check-in.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+.tick6 {
+  top: 1613px;
+  left: 765px;
+  width: 19px;
+  height: 14px;
+  background: transparent url("images/foursquare-check-in.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////S3 end */
+
+.section4 {
+  top: 1847px;
+  left: 0px;
+  width: 1440px;
+  height: 784px;
+  opacity: 1;
+  position: absolute;
+}
+
+.bluebg {
+  top: 1847px;
+  left: 0px;
+  width: 1440px;
+  height: 464px;
+  background: #002b51 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 21px #b1b1b129;
+  opacity: 1;
+  position: absolute;
+}
+
+.section4Text1 {
+  top: 1929px;
+  left: 455px;
+  width: 530px;
+  height: 46px;
+  text-align: center;
+  font: normal normal bold 30px/50px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+}
+
+.section4Text2 {
+  top: 1990px;
+  left: 471px;
+  width: 497px;
+  height: 29px;
+  text-align: center;
+  font: normal normal normal 18px/28px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+}
+
+.content {
+  top: 2057px;
+  left: 136px;
+  width: 1169px;
+  height: 574px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 21px #b1b1b129;
+  border-radius: 8px;
+  opacity: 1;
+  position: absolute;
+}
+
+.usp {
+  top: 2133px;
+  left: 188px;
+  width: 1065px;
+  height: 319px;
+  opacity: 1;
+  position: absolute;
+}
+
+.box1 {
+  top: 2133px;
+  left: 188px;
+  width: 327px;
+  height: 319px;
+  opacity: 1;
+  position: absolute;
+}
+
+.piggy {
+  top: 2120px;
+  left: 322px;
+  width: 100px;
+  background: url("./images/section4/piggybank.png") 0% 0% no-repeat padding-box;
+  height: 200px;
+  opacity: 1;
+  position: absolute;
+}
+
+.box1heading {
+  top: 2199px;
+  left: 243px;
+  width: 218px;
+  height: 35px;
+  text-align: center;
+  font: normal normal bold 22px/36px Mulish;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.box1Text {
+  top: 2247px;
+  left: 188px;
+  width: 327px;
+  height: 205px;
+  text-align: center;
+  font: normal normal normal 16px/28px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.box2heading {
+  top: 2198px;
+  left: 640px;
+  width: 159px;
+  height: 35px;
+  text-align: left;
+  font: normal normal bold 22px/30px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.hand {
+  top: 2120px;
+  left: 696px;
+  width: 80px;
+  height: 100px;
+  background: url("./images/section4/hand.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.box2Text {
+  top: 2248px;
+  left: 582px;
+  width: 300px;
+  height: 89px;
+  text-align: center;
+  font: normal normal normal 16px/28px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.box3heading {
+  top: 2197px;
+  left: 1072px;
+  width: 66px;
+  height: 35px;
+  text-align: left;
+  font: normal normal bold 22px/34px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.dollar {
+  top: 2120px;
+  left: 1081px;
+  width: 80px;
+  height: 90px;
+  background: url("./images/section4/dollar.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.box3Text {
+  top: 2243px;
+  left: 965px;
+  width: 288px;
+  height: 90px;
+  text-align: center;
+  font: normal normal normal 16px/28px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.section4Text3 {
+  top: 2480px;
+  left: 495px;
+  width: 442px;
+  height: 19px;
+  text-align: center;
+  font: normal normal normal 15px/20px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.section4Button {
+  top: 2514px;
+  left: 471px;
+  width: 499px;
+  height: 72px;
+  background: #ff7700 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.section4Buttontxt {
+  top: 2533px;
+  left: 535px;
+  width: 305px;
+  height: 32px;
+  text-align: left;
+  font: normal normal 400 24px/32px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.section4Buttontxt2 {
+  top: 2545px;
+  left: 898px;
+  width: 8px;
+  height: 14px;
+  background: url("./images/greater.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.section5 {
+  top: 2682px;
+  left: 0px;
+  width: 1440px;
+  height: 1033px;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial-bg {
+  top: 2682px;
+  left: 0px;
+  width: 1440px;
+  height: 783px;
+  background: #f5f8fa 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial-txt {
+  top: 2748px;
+  left: 400px;
+  width: 641px;
+  height: 49px;
+  text-align: center;
+  font: normal normal 34px/62px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonials {
+  top: 2832px;
+  left: 164px;
+  width: 1112px;
+  height: 314px;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial1 {
+  top: 2832px;
+  left: 164px;
+  width: 348px;
+  height: 314px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px dashed #d4d1d1;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial1-star {
+  top: 2878px;
+  left: 270px;
+  width: 133px;
+  height: 22px;
+  background: url("./images/star.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial1-txt {
+  top: 2920px;
+  left: 183px;
+  width: 311px;
+  height: 135px;
+  text-align: center;
+  font: normal normal normal 16px/26px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial1-auth {
+  top: 3061px;
+  left: 299px;
+  width: 72px;
+  height: 32px;
+  text-align: left;
+  font: normal normal 22px/30px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial2 {
+  top: 2832px;
+  left: 546px;
+  width: 348px;
+  height: 314px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px dashed #d4d1d1;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial2-star {
+  top: 2877px;
+  left: 653px;
+  width: 133px;
+  height: 22px;
+  background: url("./images/star.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+.testimonial2-txt {
+  top: 2920px;
+  left: 569px;
+  width: 302px;
+  height: 135px;
+  text-align: center;
+  font: normal normal normal 16px/26px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial2-auth {
+  top: 3061px;
+  left: 637px;
+  width: 158px;
+  height: 32px;
+  text-align: left;
+  font: normal normal 22px/30px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial3 {
+  top: 2832px;
+  left: 928px;
+  width: 348px;
+  height: 314px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px dashed #d4d1d1;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial3-star {
+  top: 2877px;
+  left: 1035px;
+  width: 133px;
+  height: 22px;
+  background: url("./images/star.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial3-txt {
+  top: 2920px;
+  left: 947px;
+  width: 311px;
+  height: 135px;
+  text-align: center;
+  font: normal normal normal 16px/26px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.testimonial3-auth {
+  top: 3060px;
+  left: 1059px;
+  width: 77px;
+  height: 32px;
+  text-align: left;
+  font: normal normal 20px/28px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.section5-2 {
+  top: 3205px;
+  left: 149px;
+  width: 1142px;
+  height: 510px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 20px #00000040;
+  opacity: 1;
+  position: absolute;
+}
+
+.blueHead {
+  top: 3205px;
+  left: 261px;
+  width: 950px;
+  height: 56px;
+  background: url("./images/blueHead.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.section5-txt1 {
+  top: 3321px;
+  left: 299px;
+  width: 813px;
+  height: 94px;
+  text-align: center;
+  font: normal normal 34px/44px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+.section5-txt2 {
+  top: 3432px;
+  left: 412px;
+  width: 631px;
+  height: 86px;
+  text-align: center;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+.section5-txt3 {
+  top: 3550px;
+  left: 500px;
+  width: 442px;
+  height: 19px;
+  text-align: center;
+  font: normal normal normal 15px/20px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+
+.section5-button {
+  top: 3578px;
+  left: 471px;
+  width: 499px;
+  height: 72px;
+  background: #ff7700 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.section5-buttonTxt {
+  top: 3597px;
+  left: 535px;
+  width: 305px;
+  height: 32px;
+  text-align: left;
+  font: normal normal 400 24px/32px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  cursor: pointer;
+  position: absolute;
+}
+
+.section5-buttonTxt2 {
+  top: 3609px;
+  left: 898px;
+  width: 8px;
+  height: 14px;
+  background: url("./images/greater.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.footer {
+  top: 3753px;
+  left: 0px;
+  width: 1440px;
+  height: 42px;
+  background: #e5f4fe 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.footer-content {
+  top: 3763px;
+  left: 548px;
+  width: 344px;
+  height: 21px;
+  text-align: center;
+  font: normal normal normal 14px/30px Mulish;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  position: absolute;
+}
+/* end of file*/
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+    font-family: Mulish sans-serif;
+    background: #ffffff;
+    font: large large 16px/28px;
+  }
+}
