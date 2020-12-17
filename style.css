@@ -1,9 +1,9 @@
 /*
 Theme Name: wealth-hub
-Theme URI: https://github.com/ShujaShah
+Theme URI: https://github.com/ShujaShah/wealth-hub
 Author: Shuja Shah
-Author URI: https://github.com/ShujaShah
-Description : This is a task to create a custom template.
+Author URI: https://github.com/ShujaShah/wealth-hub
+Description: This is a task to create a custom template.
 Version: 1.0
 */
 
@@ -13,7 +13,7 @@ body {
   padding: 0px;
 }
 
-/* css to be defined as theme */
+/* CSS FOR THE THEME */
 h1 {
   font-family: Mulish, sans-serif;
   color: #333333;
@@ -61,6 +61,7 @@ button {
   position: absolute;
 }
 
+/*  ///////// CSS FOR LOGO(SECTION 1) ////////// */
 .logo {
   top: 22px;
   left: 635px;
@@ -71,6 +72,8 @@ button {
   position: absolute;
   cursor: pointer;
 }
+
+/* CSS FOR BANNER(SECTION 2) */
 
 .section2 {
   top: 80px;
@@ -183,6 +186,8 @@ button {
   position: absolute;
 }
 
+/* ///////// CSS FOR SPONSORS ///////// */
+
 .sponsors {
   top: 708px;
   left: 0px;
@@ -278,7 +283,7 @@ button {
   position: absolute;
   cursor: pointer;
 }
-/* //////////////////////////////////////////////////////////////////////////S3 */
+/* //////// CSS FOR SECTION 3 ////////////*/
 .section3 {
   top: 906px;
   left: 81px;
@@ -495,7 +500,7 @@ button {
   position: absolute;
 }
 
-/* ////////////////////////////////////////////////////////////////////////////////////S3 end */
+/* ///////////// CSS FOR SECTION 4 ///////////// */
 
 .section4 {
   top: 1847px;
@@ -740,6 +745,8 @@ button {
   cursor: pointer;
 }
 
+/* //////////// CSS FOR SECITON 5 /////////// */
+
 .section5 {
   top: 2682px;
   left: 0px;
@@ -942,6 +949,10 @@ button {
   position: absolute;
 }
 
+#bitnami-banner {
+  display: none;
+}
+
 .blueHead {
   top: 3205px;
   left: 261px;
@@ -1039,6 +1050,8 @@ button {
   position: absolute;
 }
 
+/* ////////// CSS FOR FOOTER /////////// */
+
 .footer-content {
   top: 3763px;
   left: 548px;
@@ -1052,13 +1065,5 @@ button {
   opacity: 1;
   position: absolute;
 }
-/* end of file*/
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  body {
-    font-family: Mulish sans-serif;
-    background: #ffffff;
-    font: large large 16px/28px;
-  }
-}
+/*////////////////////////////////////// YOU HAVE REACHED THE END ////////////////////////////////////////////*/

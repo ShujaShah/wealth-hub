@@ -3,7 +3,7 @@
 <body>
   <!--Section 1-->
   <a href="#">
-    <div class="logo"></div>
+    <div onClick="window.location.reload()" class="logo"></div>
   </a>
   <!--Section 2-->
   <div class="section2">
@@ -15,8 +15,8 @@
     <div class="sec2-text3">
       It takes less than 60 seconds, and there's no cost or obligation
     </div>
-    <div class="button1"></div>
-    <div class="buttonText">Click here to get started now</div>
+    <div class="button1" onClick="window.location.reload()"></div>
+    <div class="buttonText" onClick="window.location.reload()">Click here to get started now</div>
     <div class="buttonText2"></div>
     <div class="tick"></div>
     <div class="dash"></div>
@@ -104,8 +104,8 @@
 
   <div class="section4Text3">It takes less than 60 seconds, and there's no cost or obligation</div>
 
-  <div class="section4Button"></div>
-  <div class="section4Buttontxt">Click here to get started now</div>
+  <div class="section4Button" onClick="window.location.reload()"></div>
+  <div class="section4Buttontxt" onClick="window.location.reload()">Click here to get started now</div>
   <div class="section4Buttontxt2"></div>
 
   <!--Section 5-->
@@ -142,8 +142,8 @@
     tax savings.</div>
   <div class="section5-txt3"> It takes less than 60 seconds, and there's no cost or obligation</div>
 
-  <div class="section5-button"></div>
-  <div class="section5-buttonTxt">Click here to get started now</div>
+  <div class="section5-button" onClick="window.location.reload()"></div>
+  <div class="section5-buttonTxt" onClick="window.location.reload()">Click here to get started now</div>
   <div class="section5-buttonTxt2"></div>
   
   <!--Section 6 footer-->
